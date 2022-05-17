@@ -1,2 +1,30 @@
-# QiitaCommentsKaizen
-A userscript to kaizen Qiita comments.
+# Qiita Comments Kaizen
+
+[Qiita](https://qiita.com/)の記事のコメントに機能を追加するユーザースクリプトです。
+
+## 機能
+
+- 各コメントに連番と総コメント数を振る。
+- コメント投稿者ごとに各コメントに連番と総コメント数を振る。
+- 作者のコメントに（作者）の印をつけ、枠の左に縦線を付ける。
+- 冒頭にコメント数、作者が投稿したコメント数、前向きなコメント数とそれらへのリンクを表示する。
+- 冒頭のホバータイトルでコメント投稿者ごとのコメント数を表示する。
+- 各コメントの頭にホバー型のリンクアイコンを付ける。
+- 返信先の@userのホバー時に返信先のコメントをポップアップする。
+- コメント投稿者の@userのホバー時にコメント投稿者の抽出コメントをポップアップする。
+- @userのホバー時にクリックした位置のコメントに移動する。
+- 目次(TOC)にコメントを追加する。
+
+## 動作環境
+
+- Google Chrome
+- 拡張機能Tampermonkey
+
+## ユーザースクリプトのインストール方法
+
+ユーザースクリプトのインストール方法を説明します。
+
+1. Chromeに拡張機能`Tampermonkey`を追加します。
+2. 次のリンクをクリックすると、`Tampermonkey`が動いて、ユーザースクリプトのインストール画面に移ります。
+
+https://raw.githubusercontent.com/querykuma/QiitaCommentsKaizen/main/QiitaCommentsKaizen.user.js
